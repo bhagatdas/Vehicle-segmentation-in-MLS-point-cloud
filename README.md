@@ -75,9 +75,12 @@ python train_semseg.py --model pointnet2_sem_seg --test_area 2 --log_dir pointne
 ```python
 python test_semseg.py --log_dir pointnet2_sem_seg --test_area 2 --visual
 ```
+4. Visualization:
+After successful completion of testing, an OBJ file will be created in the`log/sem_seg/pointnet2_sem_seg/visual/` path. CloudCompare does not support OBJ files, so I will recommend you convert them into TXT files by using my other repository:
+[(CONVERT OBJ TO TXT)](https://github.com/bhagatdas/Convert-OBJ-to-TXT-file-using-python)
+
 
 ## Contributing
-
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
